@@ -1,0 +1,196 @@
+@media (max-width: 575.98px) {
+	.navbar-collapse {padding-top: 15%;}
+
+	.navbar-light .nav-item .nav-link {
+		font-size: 2.5vw;
+		padding-top: 6%;
+	}
+
+	.menu_collapse { 
+		padding-top: 5%;
+		p{font-size: 2.5vw;}
+		li {font-size: 2.5vw;}
+	}
+
+	.header_text { 
+		padding-bottom: 10%; 
+		h2 {font-size: 2.5vw;}
+	}
+
+	.pro_list_item {span { width: 50%;}}
+
+	.carousel-item {padding: 0 8%;}
+}
+
+@media (max-width: 767.98px) {
+	.navbar-brand,.navbar-toggler {z-index: 2;}
+
+	.navbar-collapse {
+		position: fixed;
+		z-index: 1;	
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		padding-top: 10%;
+		background-color: gray;
+	}
+
+	.menu_collapse {display: flex;}
+
+	.navbar-light .nav-item .nav-link {
+		font-size: 2.5vw;
+		padding-top: 8%;
+		text-transform: uppercase;
+	}
+
+	.navbar-light .navbar-nav .nav-link.disabled {visibility: hidden;}
+}
+
+@media screen and (max-width: 378px) and (min-width: 280px)  {
+	header {min-height: 9em;}
+
+	.navbar-collapse {padding-top: 15%;}
+
+	.navbar-light .nav-item .nav-link {
+		font-size: 2.5vw;
+		padding-top: 6%;
+	}
+
+	.menu_collapse { 
+		padding-top: 5%;
+		p,li{font-size: 2.5vw;}
+	}
+
+	.navbar {padding: 0;}
+
+	.pro_list {padding: 0% 2%;}
+
+	.header_text .container {padding: 0;}
+
+	.carousel-item {line-height: 2.5vw;}
+
+	.connection {
+		button {margin-bottom: 0%;}
+
+		input {margin-bottom: 5%;}
+	}
+
+	.header_text {button {margin-top: -20%;}}
+
+	.pro_list_item {
+		span {
+			width: 60%;
+			height: 30%;
+		}
+
+		p {font-size: 1.4vw;}
+	}
+
+	.carousel-item {
+		padding: 0 8%;
+
+		p {margin-bottom: 5%;}
+	}
+}
+@media screen and (max-width: 576px) and (min-width: 378px)  {
+	.navbar-collapse {padding-top: 10%;}
+
+	header {min-height: 14em;}
+
+	.navbar-light .nav-item .nav-link {
+		font-size: 2.2vw;
+		padding-top: 4%;
+	}
+
+	.menu_collapse { 
+		padding-top: 0%;
+		p{font-size: 2.2vw;}
+		li {font-size: 2.2vw;}
+	}
+	
+	.connection {input {margin-bottom: 8%;}}
+
+	.features {padding: 2%;}
+
+	.pro_list_item {
+		span {
+			width: 65%;
+			height: 30%;
+		}
+
+		p {font-size: 1.6vw;}
+	}
+
+	.navbar {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.carousel-item {p {margin-bottom: 5%;}}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	header {min-height: 18em;}
+
+	.navbar-collapse {padding-top: 5%;}
+
+	.navbar-light .nav-item .nav-link {
+		font-size: 1.5vw;
+		padding-top: 4%;
+		text-transform: uppercase;
+	}
+
+	.menu_collapse { 
+		p{font-size: 1.5vw;}
+		li {font-size: 1.5vw;}
+	}
+
+	.header_text { 
+		padding-bottom: 10%; 
+		h2 {font-size: 2.5vw;}
+	}
+
+	.pro_list_item {span { width: 50%;}}
+}
+
+@media (min-width: 768px) and (max-width: 894.55px) {
+	.navbar-nav > li:last-child {display: none;}
+
+	header {min-height: 25em;}
+}
+
+@media (min-width: 863px) and (max-width: 991.98px) {
+	.header_text {padding: 0% 0 4% 0;}
+
+	header {min-height: 28em;}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	header {min-height: 28em;}
+
+	.team,.about {
+		line-height: 3vw;
+		p {font-size: 1.8vw;}
+	}
+
+	.container {padding: 2% 0;}
+
+	.header_text { padding: 3% 0 9% 10%;}
+
+	.pro_list {padding: 8% 2%;}
+
+	.contacts {span {font-size: 1.5vw;}}
+}
+
+@media (min-width: 1200px) {
+	.team,.about {
+		line-height: 3vw;
+		p {font-size: 1.8vw;}
+	}
+
+	.header_text { padding: 5% 0 11% 10%;}
+
+	.pro_list {padding: 8% 2%;}
+
+	.contacts {span {font-size: 1.5vw;}}
+}

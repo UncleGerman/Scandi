@@ -1,0 +1,285 @@
+$main_color: #533738; 
+$bg_color: #8d7370;
+
+body {
+	background-color: #efe6e4;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	color: $main_color;
+}
+
+header {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%; 
+	-o-background-size: 100%; 
+	background-size: 100%; 
+	background-image: url(../img/hedaer_bg.jpg);
+}
+
+button:focus {outline: none; }
+
+img {
+	max-width: 100%;
+	min-width: 100%;
+
+	max-height: 100%;
+	min-height: 100%;
+}
+
+h1 {
+	font-size: 4.5vw;
+	font-weight: 400;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3.5vw;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2.5vw;
+	font-weight: 400;
+	text-align: center;
+}
+
+p {font-size: 1.5vw;}
+
+a {font-size: 1.5vw;}
+
+.container {padding: 3% 0;}
+
+.row {margin: 0;}
+
+.navbar-light .navbar-toggler {border: none;}
+
+.navbar-light .nav-item .nav-link {
+	color: $main_color;
+	text-align: center;
+	font-size: 1.3vw;
+}
+
+.navbar-light .nav-item:hover .nav-link {color: #cc8b86;}
+
+.navbar-light .nav-item:hover .disabled {color: $main_color;}
+
+.navbar-brand {
+	img { 
+		max-width: 30%; 
+		min-width: 30%; 
+	}
+}
+
+.navbar-toggler-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.menu_collapse {
+	display: none;
+	flex-direction: column;
+	padding: 0 10%;
+}
+
+.menu_collapse_info {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-bottom: 0.1vw solid $main_color;
+
+	p {	max-width: 50%;}
+
+	ul {
+		max-width: 50%;
+		list-style: none;
+
+		li {padding-bottom: 5%;}
+	}
+}
+
+.menu_collapse_phone {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	padding: 0;
+	margin-top: 5%;
+}
+
+.header_text,.connection {
+	button {
+		font-size: 1.8vw;
+		background-color: #cc8b86;
+		color: $main_color;
+		border: none;
+	}
+
+	button:hover {
+		background-color: #fff;
+		color: #cc8b86;
+	}
+}
+
+.header_text {
+	padding-bottom: 6%;
+	h2 {text-align: left;}
+}
+
+.about {h2 {padding-bottom: 3%;}}
+
+.features {
+	padding: 3% 0;
+	color: #fff;
+	text-align: center;
+	background-color: $bg_color;
+}
+
+.works_rows { 
+	padding-top: 2%; 
+
+	.col-md-5,.col-sm-5,.col-5 {padding: 0 1%;}
+
+	.col-md-7,.col-sm-7,.col-7 {padding: 0 1%;}
+}
+
+.works_rows_item {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	background-color: #644845;
+
+	div {
+		position: absolute;
+		top: 5%;
+		left: 10%;
+		visibility: hidden;
+		cursor: pointer;
+		color: #fff;
+	}
+}
+
+.works_rows_item:hover {
+	img {opacity: 0.3;}
+
+	div {visibility: visible;}
+}
+
+.works_arrow {
+	a {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+		color: $main_color;
+	}
+
+	a:hover {color: #e2c4ba;}
+
+	p {
+		font-size: 1.8vw;
+		padding-top: 6%;
+	}
+
+	img {
+		margin-left: 5%;
+
+		max-width: 30%;
+		min-width: 30%;
+	}
+}
+
+.team,.pro_list {background-color: #e2c4ba;}
+
+.team {
+	h2 {padding-bottom: 5%;}
+
+	img {
+		min-height: 50%;
+		max-height: 50%;
+	}
+}
+
+.feedback_title {padding-top: 5%;}
+
+.pro_list {
+	padding: 4% 5%;
+	text-align: center;
+}
+
+.pro_list_item {
+	span {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		width: 40%;
+		height: 35%;
+		border-radius: 50%;
+		background-color: $bg_color;
+		color: #fff;
+		font-weight: 500;
+		font-size: 2.5vw;
+	}
+	p {margin-top: 15%;}
+}
+
+.carousel-item {
+	line-height: 3.2vw;
+
+	img {
+		margin-bottom: 5%;
+		max-height: 40%;
+		min-height: 40%;
+	}
+
+	h3 {
+		text-align: left;
+		font-weight: 500;
+	}
+}
+
+.connection {
+	color: #fff;
+	background-color: $bg_color;
+
+	.container {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	h2 {
+		text-align: left;
+		padding-top: 5%;
+	}
+
+	input {
+		height: 10%;
+		padding: 0;
+		background-color: transparent;
+		border: none;
+		border-radius: 0;
+		border-bottom: 0.1vw solid #fff;
+		margin-bottom: 10%;
+	}
+
+	input::placeholder {
+		color: #fff;
+		font-size: 2vw;
+	}
+
+	button{
+		width: 80%;
+		margin-bottom: 20%;
+	}
+}
+
+.contacts {span {font-size: 1.2vw;}}
+
+@import "media.scss";
